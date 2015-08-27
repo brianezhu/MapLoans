@@ -1,8 +1,3 @@
-// adds a prefix to request path
-$.ajaxPrefilter(function(options, originalOptions, jqXHR) {
-    options.url = "http://localhost:8080/api/get" + options.url;
-});
-
 // used to serialize JavaScript objects
 $.fn.serializeObject = function() {
     var o = {};
@@ -22,7 +17,7 @@ $.fn.serializeObject = function() {
 
 // Currently represents the state's loan statistics
 var StateLoanSummary = Backbone.Model.extend({
-    urlRoot: "/state"
+    urlRoot: "/api/get/state"
 });
 
 // home view, with no state selected
