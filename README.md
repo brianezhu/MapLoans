@@ -8,12 +8,12 @@ I used Spring Boot to provide convention over configuration, which allows for ra
 There is an Application class, a RestController class, and other Java classes. The other Java classes are used to load data and represent data.
 
 Note:
-I am reasonably experienced in Java backend servers. I have not used Ruby on Rails, but I don't think it will be very hard to learn.
+I am reasonably experienced in Java backend servers. I have not used Ruby on Rails but I am excited to learn it.
 
 # Frontend
-I wrote the frontend to use Backbone.js. Since the data is extremely simple, I did not need to use a Collection. Obviously, if I had to display a larger amount of data, I would use a Collection.
+I wrote the frontend to use Backbone.js. Since the data is extremely simple, I didn't need to use a Collection. If I had to display a larger amount of data, I would definitely use a Collection.
 
-In short, Backbone.js sends HTTP requests to the server's RESTful API, which responds in JSON.
+Backbone.js sends HTTP requests to the server's RESTful API, which responds in JSON.
 The JSON fills out the data for the model, which is sent to an Underscore.js template.
 The template is used to display the data for the user.
 
